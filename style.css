@@ -300,24 +300,20 @@ background-image: url(./assets/abstract-secure-technology-background_23-21483316
 .not-allowed{
     color: red;
 }
-/* Small screens: mobile phones */
 @media (max-width: 768px) {
     
-    /* Navbar: links stack vertically */
     .navbar {
        
         align-items: flex-start;
         gap: 10px;
     }
 
-    /* Navbar links: smaller font + vertical layout */
     .links ul {
         flex-direction: column;
         display: none;
         gap: 10px;
     }
 
-    /* Banner text smaller */
     .banner-txt h1 {
         font-size: 28px;
     }
@@ -325,20 +321,17 @@ background-image: url(./assets/abstract-secure-technology-background_23-21483316
         font-size: 16px;
     }
 
-    /* Cards: stack vertically */
     .cards {
-        grid-template-columns: 1fr; /* ek column */
+        grid-template-columns: 1fr; 
         gap: 20px;
     }
 
-    /* Form main box full width */
     .form-main {
         width: 90%;
         padding: 20px;
     }
 }
 
-/* Extra small screens: phones */
 @media (max-width: 480px) {
     .banner-txt h1 {
         font-size: 22px;

@@ -1,4 +1,4 @@
-// wesy to chal rha hai agr koi mistake lgy to changes krdena bhai 
+// wesy to chal rha hai agr koi mistake lgy to changes krdena bhai ::kibriya-dev
 
 let checkBtn = document.getElementById("Checkbtn");
 
