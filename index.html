@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Entry System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="head-sec">
+    <div class="header">
+        <div class="navbar">
+            <div class="name">
+                <h4>ENTRY CHECKER</h4>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="button">
+                <button>Contact Us</button>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="banner-txt">
+                <h1>Welcome to Smart Entry System</h1>
+                <p>Easy, quick, and smart system for exam entry</p>
+                <button>Start Verification</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cards-sec">
+    <div class="cards">
+        <div class="card-1">
+            <h3>Fast Verification</h3>
+            <p>Check your eligibility instantly without any delays.</p>
+        </div>
+        <div class="card-2">
+            <h3>Secure System</h3>
+            <p>All student data is processed securely and reliably.</p>
+        </div>
+        <div class="card-3">
+            <h3>Late & Warning Alerts</h3>
+            <p>Get notified if you are late or have warnings.</p>
+        </div>
+    </div>
+</section>
+
+<section class="form-sec" id="form">
+    <div class="form-main">
+        <div class="form-con">
+        <h2>Entrance Form</h2>
+        <p>Please fill this form to enter the examination hall</p>
+        </div>
+
+        <form>
+            <label for="age">Enter Your Age:</label>
+            <input type="number" id="age" placeholder="18+">
+
+            <p>Do You Have Admit Card?</p>
+            <label><input type="radio" name="admit" value="yes"> Yes</label>
+            <label><input type="radio" name="admit" value="no"> No</label>
+
+            <p>Is Your Examination Fee Paid?</p>
+            <label><input type="radio" name="fee" value="yes"> Yes</label>
+            <label><input type="radio" name="fee" value="no"> No</label>
+
+            <label for="late">Late Minutes:</label>
+            <input type="number" id="late" placeholder="0">
+
+            <label for="warnings">Warnings Count:</label>
+            <input type="number" id="warnings" placeholder="0">
+
+            <button type="button" id="Checkbtn">Check Entry</button>
+        </form>
+    </div>
+</section>
+
+<section class="result-sec" id="result">
+    <div class="result-box">
+        <h2>Result</h2>
+        <p class="result-msg">Please fill the form and click "Check Entry"</p>
+    </div>
+</section>
+
+
+<section class="footer-sec">
+    <div class="footer">
+        <h5>© 2026 Smart Entry System | By Kibriya Aslam</h5>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
